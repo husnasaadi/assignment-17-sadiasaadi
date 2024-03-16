@@ -32,34 +32,16 @@ let mixedArray = [ "dog", true, 6 , "lion" , false , 7];
 
 // q7
 
-// let qualification = ["SSC","HSC","BSC","BS","BCOM","MS","PHD",];
-// document.write("education qualification in pakistan <br>" + " " + qualification);
+ let qualification = ["SSC","HSC","BSC","BS","BCOM","MS","PHD",];
+ document.write("education qualification in pakistan <br>" + " " + qualification);
 
-// q8
-
-// let studentName = ["Micheal", "John", "Tony"];
-// let studentScore = [320, 230, 480];
 
 // Q9
 
-// let coloursName = ["blue", "pink","yellow", "black", "purple","grey"];
-// document.write(coloursName);
+let coloursName = ["blue", "pink","yellow", "black", "purple","grey"];
+ document.write(coloursName);
 
 
-
-// very detailed answer pending
-
-// q10
-
-// q11
-
-// q12
-
-// q13
-
-// q14
-
-// q15
 
 
 
@@ -82,46 +64,46 @@ for ( i = 1; i<=10 ; i++) {
 
 // q4
 
-// var num = +prompt("enter a num to show the table") ;
-// var range = +prompt("enter a length");
-// for (var i = 1 ; i<=range ;i++) {
-//    document.write(num + "*" + i +"=" + num * i + "<br>");
-// }
+var num = +prompt("enter a num to show the table") ;
+var range = +prompt("enter a length");
+for (var i = 1 ; i<=range ;i++) {
+   document.write(num + "*" + i +"=" + num * i + "<br>");
+}
 
-// this question is right
+
 
 // chapter 14 (if statement nested)
 
 // q1
 
-//  var password = 7
-//  if (password !== ""){
-//        if(password.length <=5){
-//          alert("password must be greater than 5");
-//        }
+ var password = 7
+ if (password !== ""){
+       if(password.length <=5){
+         alert("password must be greater than 5");
+       }
  
-// else {
-//    alert("OK")
-// }
-// }
+else {
+   alert("OK")
+}
+}
 
 // q2
 
-// var a=1;
-// var c ="MAX";
-// if (a===1){
-//    if(c==="MAX"){
-//       alert("OK");
-//    }
-// }
+var a=1;
+var c ="MAX";
+if (a===1){
+   if(c==="MAX"){
+      alert("OK");
+   }
+}
 
 // Q3
 
-// var a=1;
-// var c ="MAX";
-// if (a===1 && c==="MAX"){
-//    alert("OK");
-// }
+var a=1;
+var c ="MAX";
+if (a===1 && c==="MAX"){
+   alert("OK");
+}
 
 // Q4
 
@@ -204,17 +186,17 @@ for (i= 0 ;i < pet.length ; i++) {
 
 // q10
 
-// var userName = ["sadia", "husna", "sumaiya", "Sumaira" , "humaira", "yusra"];
-// var firstName = prompt("enter first name");
-// for (let i = 0 ; i<userName.length ; i++){
-//    if (userName[i]===firstName){
-//       alert("enter");
-//       break;
-//    }
-//    else{
-//       alert("please write correct user name");
-//    }
-// }
+var userName = ["sadia", "husna", "sumaiya", "Sumaira" , "humaira", "yusra"];
+var firstName = prompt("enter first name");
+for (let i = 0 ; i<userName.length ; i++){
+   if (userName[i]===firstName){
+      alert("enter");
+      break;
+   }
+   else{
+      alert("please write correct user name");
+   }
+}
 
 
 
